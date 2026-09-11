@@ -71,7 +71,7 @@ export function AnimatedIcon() {
         style={styles.background}
         entering={keyframe.duration(DURATION)}
       >
-        <div className={classes.expoLogoBackground} />
+        {/* <div className={classes.expoLogoBackground} /> */}
       </Animated.View>
 
       <Animated.View
